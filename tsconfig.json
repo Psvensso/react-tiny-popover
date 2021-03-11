@@ -3,6 +3,7 @@
     "outDir": "./dist",
     "rootDir": "src",
     "sourceMap": true,
+    "inlineSources": true,
     "lib": ["esnext", "dom"],
     "esModuleInterop": true,
     "noImplicitAny": true,
