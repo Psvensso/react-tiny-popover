@@ -59,7 +59,7 @@ import { Popover } from 'react-tiny-popover'
 
 <Popover
   isOpen={isPopoverOpen}
-  position={['top', 'left']} // if you'd like, you can limit the positions
+  positions={['top', 'left']} // if you'd like, you can limit the positions
   padding={10} // adjust padding here!
   reposition={false} // prevents automatic readjustment of content position that keeps your popover content within its parent's bounds
   onClickOutside={() => setIsPopoverOpen(false)} // handle click events outside of the popover/target here!
